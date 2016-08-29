@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+#user_credentials {
+	float: right;
+	text-align: center;
+}
+
+.form_style {
+	form {
+		.field {
+			align-content: center;
+			label {
+			width: 5em;
+			float: left;
+			text-align: right;
+			padding-top: 0.2em;
+			margin-right: 0.5em;
+			display: block;
+			}
+
+			select, textarea, input {
+				margin-left: 0.5em;
+			}
+
+			.submit {
+				margin-left: 4em;
+			}
+			
+		}
+				
+	}
+
+			
+}
