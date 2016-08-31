@@ -2,7 +2,10 @@ Rails.application.routes.draw do
   
   root 'welcome#index'
 
-  devise_for :users
+  devise_for :users, controllers: {
+    sessions: 'users/sessions'
+  }
+
   # get 'wellcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
